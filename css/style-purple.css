@@ -84,10 +84,10 @@ a:hover {
 }
 
 .bg-image {
-  background-repeat: no-repeat !important;
-  background-attachment: fixed;
-  background-size:100%  100% !important;
-  background-position: 50%  50% !important; 
+  background-repeat: no-repeat;
+  width: 100% !important;
+  background-position:center;
+   background-size: cover; 
   background: url("/img/intro-bg.jpg")  !important;
 }
 
@@ -615,6 +615,7 @@ a:hover {
   height: 100vh;
   position: relative;
   color: #fff;
+  width: 100%;
 }
 
 .intro .intro-content {
